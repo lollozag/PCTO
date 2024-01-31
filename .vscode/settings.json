@@ -1,6 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "ESERCIZIO16.C": "cpp"
+        "ESERCIZIO16.C": "cpp",
+        "ESERCIZIO24.C": "cpp",
+        "esercizio24VOCALI.C": "cpp"
     }
 }

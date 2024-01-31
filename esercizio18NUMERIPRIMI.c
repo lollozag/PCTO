@@ -9,21 +9,21 @@ int main()
     printf("Inserire un numero n a piacere per verificare che questo sia un numero primo: \n");
     scanf("%d", &numero);
 
-    while (n < numero)
+    while (x < numero)
     {
         if (numero % x == 0)
         {
-            divisori = divisori + 1;
+           divisori = divisori + 1;
         }
         x = x + 1;
     }
-    if (divisori == 0);
+    if (divisori == 0)
     {
         printf("allora il numero inserito è un NUMERO PRIMO\n");
     }
     else
     {
-        printf("allora il numero inserito NON è un NUMERO PRIMO\n"");
+        printf("allora il numero inserito NON è un NUMERO PRIMO\n") ; 
     }
 
 
