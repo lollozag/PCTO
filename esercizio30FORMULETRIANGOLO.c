@@ -1,24 +1,31 @@
+#include<stdio.h>
+
 int main()
 {
-    int base, altezza, lato1, lato2;
+    int base, lato1, lato2;
     float area;
     float perimetro;
+    float sqrt;
 
     printf("\nBenvenuto in questa CALCOLATRICE GRAFICA.\n");
     printf("\nCon questa nuova funzione hai la possibilità di calcolare il perimetro e l'area di un triangolo.\n");
     printf("\nPer cominciare, scegli le misure dei lato del triangolo.\n");
-    printf("Inserisci la base del triangolo.\n");
+    printf("\nInserisci la base del triangolo.\n");
 	scanf("%d", &base);
-    printf("\nInserisci l'altezza del triangolo.\n");
-	scanf("%d", &altezza);
+    printf("\nInserisci lato1 del triangolo.\n");
+	scanf("%d", &lato1);
     printf("\nInserisci il lato3 del triangolo.\n");
-	scanf("%d", &lato3);
+	scanf("%d", &lato2);
 
-    perimetro = base + lato1 + lato2;
-    area = (base*altezza)/2.0;
+    int perimetro = base + lato1 + lato2;
+    printf("Il perimetro del triangolo formato dai tre lati selezionati è: %d\n", perimetro);
 
-
-	printf("L'area del triangolo vale: %.2f", area);
+    int p = perimetro / 2;
+    printf("Il semiperimetro del triangolo formato dai tre lati selezionati è: %d\n", p);
+    
+    double sqrt(double p * (p - base) * (p - lato1) * (p - lato2);
+    area = p * (p - base) * (p - lato1) * (p - lato2);
+    printf("L'area del triangolo formato dai tre lati selezionati è: %d\n", area);
 
 	return 0;
 }
