@@ -1,14 +1,30 @@
-#include<stdio.h>
-
 int main()
 {
-    int l1;
-    int l2;
-    int l3;
-    int area;
-    int perimetro;
+    int base, altezza, lato1, lato2;
+    float area;
+    float perimetro;
 
-    perimetro = l1 + l2 + l3;
-    area = (l1 + l2) / 2
+    printf("\nBenvenuto in questa CALCOLATRICE GRAFICA.\n");
+    printf("\nCon questa nuova funzione hai la possibilità di calcolare il perimetro e l'area di un triangolo.\n");
+    printf("\nPer cominciare, scegli le misure dei lato del triangolo.\n");
+    printf("Inserisci la base del triangolo.\n");
+	scanf("%d", &base);
+    printf("\nInserisci l'altezza del triangolo.\n");
+	scanf("%d", &altezza);
+    printf("\nInserisci il lato3 del triangolo.\n");
+	scanf("%d", &lato3);
 
-    printf("\nBenvenuto in questa CALCOLATRICE GRAFICA\n");
+    perimetro = base + lato1 + lato2;
+    area = (base*altezza)/2.0;
+
+
+	printf("L'area del triangolo vale: %.2f", area);
+
+	return 0;
+}
+    
+
+
+    
+
+    
